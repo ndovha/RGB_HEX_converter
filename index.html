@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB->HEX</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="instraction">
+        <h2>RGB to HEX and HEX to RGB Converter Tool:</h2>
+        <div>
+            <ul>
+                <li>You can choose the conversion: RGB to HEX or HEX to RGB.</li>
+                <li>Input the value in the required format:
+                    <ul>
+                        <li>For RGB to HEX: "R,G,B" rgb(255, 255, 255). Each value should be 0-255..</li>
+                        <li>For HEX to RGB: "#FFF" or "#FFFFFF" (hexadecimal format).</li>
+                    </ul>
+                </li>
+                <li>The program will automatically change input value and background color.</li>
+            </ul>
+        </div>
+    </div>
+    <div id="container">
+        <div>
+            <label>HEX color</label>
+            <input id="hex" class="color" type="text">
+            <p>Format of HEX color should be #fff or #ffffff!</p>
+        </div>
+        <div>
+            <label>RGB color</label>
+            <input id="rgb" class="color" type="text">
+            <p>Format of RGB color should be rgb(255, 255, 255)!</p>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

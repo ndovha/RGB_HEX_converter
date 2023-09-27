@@ -1,0 +1,30 @@
+#instraction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+    font-size: 18px;
+}
+
+#container {
+    margin: 0 auto;
+    width: 40%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: antiquewhite;
+}
+
+.warning {
+    border: 2px solid red;
+}
+
+p{
+    color:red;
+    display: none;
+}
